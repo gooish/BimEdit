@@ -2,6 +2,7 @@
 
 ## Introduction
 Course work for Lausekielinen Ohjelmointi 2 course
+
 Written in java, with test scrips in bash and batch
 
 ## Running
