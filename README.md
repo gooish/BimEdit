@@ -1,9 +1,9 @@
 # BimEdit
 
 ## Introduction
-Course work for Lausekielinen Ohjelmointi 2 course
+Course work for Lausekielinen Ohjelmointi 2 course in December 2019
 
-Written in java, with test scrips in bash and batch
+Written in Java, with test scrips in bash and batch
 
 ## Running
 After compiling, BimEdit takes two arguments:
@@ -13,5 +13,5 @@ After compiling, BimEdit takes two arguments:
 The file will be loaded, and the program will quit if the file is malformed or doesn't exist. The echo parameter prints out all commands that the program gets as input and is useful for debugging.
 
 ## Image format
-The first two rows of the file are integers that contain the dimensions of the image file, with the first one being height and the second one being width. Rows three and four are the "back symbol" and "front symbol" respectively. If the image doesn't match the dimensions or contains symbols not included within the symbol fields, the image is considered malformed and the program wil exit.
+The first two rows of the file are integers that contain the dimensions of the image file, with the first one being height and the second one being width. Rows three and four are the "back symbol" and "front symbol" respectively. If the image doesn't match the dimensions or contains symbols not included within the symbol fields, the image is considered malformed and the program wil exit. A "spot.txt" file is provided as a model.
 
